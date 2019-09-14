@@ -1,0 +1,34 @@
+{
+	"name": "sncf-wifi-portal-client",
+	"description": "Query information from the SNCF WiFi portal in French TGV trains.",
+	"version": "1.0.0",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"example.js"
+	],
+	"keywords": [
+		"tgv",
+		"sncf",
+		"train",
+		"wifi"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/sncf-wifi-portal-client",
+	"repository": "derhuerst/sncf-wifi-portal-client",
+	"bugs": "https://github.com/derhuerst/sncf-wifi-portal-client/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=10"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"tap-min": "^2.0.0",
+		"tape": "^4.10.1"
+	},
+	"scripts": {
+		"test": "env NODE_ENV=dev node test.js | tap-min",
+		"prepublishOnly": "npm test"
+	}
+}
