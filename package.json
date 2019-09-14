@@ -22,6 +22,8 @@
 		"node": ">=10"
 	},
 	"dependencies": {
+		"fetch-ponyfill": "^6.1.0",
+		"pinkie-promise": "^2.0.1"
 	},
 	"devDependencies": {
 		"tap-min": "^2.0.0",
