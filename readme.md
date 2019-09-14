@@ -19,7 +19,24 @@ npm install sncf-wifi-portal-client
 ## Usage
 
 ```js
-todo
+const portal = require('sncf-wifi-portal-client')
+
+portal.connectionStatus()
+.then(console.log, console.error)
+```
+
+```js
+{
+	active: true,
+	status_code: 200,
+	status_description: 'ip has active grant',
+	service_class: 5,
+	granted_bandwidth: 100000,
+	remaining_data: 75453,
+	consumed_data: 1346,
+	next_reset: 1568471384091,
+	profileId: 'AUTO-LOGIN-PROFILE-ID'
+}
 ```
 
 
