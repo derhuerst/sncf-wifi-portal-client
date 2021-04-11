@@ -16,7 +16,8 @@ const request = async (route) => {
 	const res = await fetch(endpoint + route, {
 		mode: 'cors',
 		redirect: 'follow',
-		headers: {'User-Agent': userAgent}
+		headers: {'User-Agent': userAgent},
+		timeout: 2500
 	})
 	if (!res.ok) {
 		const err = new Error(res.statusText)
