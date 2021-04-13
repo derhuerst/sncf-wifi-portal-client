@@ -5,8 +5,8 @@
 [![npm version](https://img.shields.io/npm/v/sncf-wifi-portal-client.svg)](https://www.npmjs.com/package/sncf-wifi-portal-client)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/sncf-wifi-portal-client.svg)
 ![minimum Node.js version](https://img.shields.io/node/v/berlin-postal-code-areas.svg)
-[![chat with me on Gitter](https://img.shields.io/badge/chat%20with%20me-on%20gitter-512e92.svg)](https://gitter.im/derhuerst)
-[![support me on Patreon](https://img.shields.io/badge/support%20me-on%20patreon-fa7664.svg)](https://patreon.com/derhuerst)
+[![support me via GitHub Sponsors](https://img.shields.io/badge/support%20me-donate-fa7664.svg)](https://github.com/sponsors/derhuerst)
+[![chat with me on Twitter](https://img.shields.io/badge/chat%20with%20me-on%20Twitter-1da1f2.svg)](https://twitter.com/derhuerst)
 
 
 ## Installation
@@ -38,6 +38,14 @@ portal.connectionStatus()
 	profileId: 'AUTO-LOGIN-PROFILE-ID'
 }
 ```
+
+
+## Related
+
+- [`record-tgv-movement`](https://github.com/derhuerst/record-tgv-movement) – Record the movement of any TGV using the on-board WiFi.
+- [`wifi-on-ice-portal-client`](https://github.com/derhuerst/wifi-on-ice-portal-client) – Query information from the WifiOnICE portal in German ICE trains.
+- [`digital-im-regio-portal-client`](https://github.com/derhuerst/digital-im-regio-portal-client) – Query information from the Digital im Regio portal in German Regio trains.
+- [`cd-wifi-client`](https://github.com/derhuerst/cd-wifi-client) – A client for the onboard WiFi portal of České dráhy (Czech Railways) trains.
 
 
 ## Contributing
